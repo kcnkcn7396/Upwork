@@ -1,0 +1,51 @@
+1. JSX ?? Javascript + XML and allow you to write HTML in React..
+   props == function parameter
+   state == normal variable
+
+Props can be used with state and functional components.	
+JSX -- > {}We can use this to ...
+
+ class components can work with each components while functional componenet is only simple javascript.. ?????????????
+
+How do browsers read JSX?
+In general, browsers are not capable of reading JSX and only can read pure JavaScript. The web browsers read JSX with the help of a transpiler. Transpilers are used to convert JSX into JavaScript. The transpiler used is called Babel
+
+key is important to identify the lis ts.
+
+          React            vs               Angular
+      VIrtual Dom     		 	    Real DOM
+dataflow in single direction            in multi directions
+        MVC			         	MVVM
+  one-way data binding                    two data binding
+
+18. What is higher-order component in React?
+	Higher-order components or HOC is the advanced method of reusing the component functionality logic.
+It simply takes the original component and returns the enhanced component. HOC are beneficial as they are easy to code and read.
+Also, helps to get rid of copying the same logic in every component.
+
+      Functional Component            Class Component
+         no render                        render
+          no state                        stateful
+     no lifecycle event                  lifecycle event
+         no constructor                   constructor
+
+one-way binding
+    child components are not able to update the data that is coming from the parent component. 
+
+componentWillMont()
+componentDidMount()
+
+We want to change the value of child component.
+
+imperative -- command
+
+Hook
+
+<React.Fragment>	
+	<h2></h2>	
+	<p></p>
+</React.Fragment>
+
+react developer tool ???
+
+styled-components.
